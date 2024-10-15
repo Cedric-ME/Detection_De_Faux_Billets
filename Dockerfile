@@ -14,5 +14,5 @@ RUN pip install -r requirements.txt
 # Exposer le port si ton application en utilise un (facultatif)
 # EXPOSE 8000
 
-# Commande à exécuter au démarrage du conteneur (à adapter à ton projet)
+# Commande à exécuter au démarrage du conteneur
 CMD ["python", "main.py"]
